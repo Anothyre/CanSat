@@ -5583,6 +5583,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -7499,13 +7663,7 @@
 		(at 30.48 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0bd2bcb3-6050-46c6-a902-091730557c35")
-	)
-	(junction
-		(at 33.02 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10cb3c61-5bec-4c71-8f44-2985165d8b18")
+		(uuid "0b63d0ec-fb2d-477b-8c06-471f33d5046d")
 	)
 	(junction
 		(at 87.63 78.74)
@@ -7592,6 +7750,12 @@
 		(uuid "4fbfad47-8078-488c-a8ea-bcaf1ff4fd6a")
 	)
 	(junction
+		(at 35.56 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5253b8bc-01b7-423d-b9c4-5b950d281e2b")
+	)
+	(junction
 		(at 115.57 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7616,16 +7780,16 @@
 		(uuid "65f86a15-a148-422f-bd71-3c274fe7b62d")
 	)
 	(junction
+		(at 35.56 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68769eab-e413-4e8a-8ab5-8c11f5e739c0")
+	)
+	(junction
 		(at 247.65 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b72ced6-03ea-4846-b9c1-0c0000b62329")
-	)
-	(junction
-		(at 33.02 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ff28664-e0dc-46cb-bf1a-5358e802c81b")
 	)
 	(junction
 		(at 156.21 96.52)
@@ -7676,12 +7840,6 @@
 		(uuid "9e96a9f2-1cbb-4d2d-ac07-aa4c69d5fa81")
 	)
 	(junction
-		(at 33.02 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4cc2a79-c02d-46df-9c36-85e15512c967")
-	)
-	(junction
 		(at 113.03 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7728,6 +7886,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c41d8ba2-c36b-4e51-8b9e-93975939bcc1")
+	)
+	(junction
+		(at 35.56 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c7a8a8-1729-4107-ad3d-5c38262f5377")
+	)
+	(junction
+		(at 222.25 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9b2aeb9-29c6-420b-a0b3-5c1131f577b9")
 	)
 	(junction
 		(at 222.25 104.14)
@@ -7806,6 +7976,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fed10b0e-415c-43ee-baea-6d74eecc460a")
+	)
+	(junction
+		(at 222.25 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff7c31f2-ff89-452d-a378-4e2510a6b7e7")
 	)
 	(no_connect
 		(at 273.05 147.32)
@@ -7921,16 +8097,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 149.86) (xy 33.02 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00e2cb62-f392-45dc-b288-39ea8154c384")
-	)
-	(wire
-		(pts
 			(xy 30.48 71.12) (xy 30.48 73.66)
 		)
 		(stroke
@@ -8031,6 +8197,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 107.95) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c720580-0eb7-45d9-9d1a-8cd6f0d9dc03")
+	)
+	(wire
+		(pts
 			(xy 101.6 165.1) (xy 101.6 166.37)
 		)
 		(stroke
@@ -8068,16 +8244,6 @@
 			(type default)
 		)
 		(uuid "1223ff62-7b12-418c-acf4-c47255fb2937")
-	)
-	(wire
-		(pts
-			(xy 33.02 35.56) (xy 33.02 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146daeb5-f253-4726-8c91-b7ac356fb8ec")
 	)
 	(wire
 		(pts
@@ -8188,6 +8354,16 @@
 			(type default)
 		)
 		(uuid "202076ba-fe4d-4b63-a95e-e3f2284d70bd")
+	)
+	(wire
+		(pts
+			(xy 35.56 38.1) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20776b8b-91ad-4b02-a2bf-a6d09cf2577a")
 	)
 	(wire
 		(pts
@@ -8311,16 +8487,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 95.25) (xy 33.02 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca0bece-bca9-42e5-94d6-40d9610355b0")
-	)
-	(wire
-		(pts
 			(xy 90.17 96.52) (xy 87.63 96.52)
 		)
 		(stroke
@@ -8351,7 +8517,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 95.25) (xy 35.56 95.25)
+			(xy 30.48 95.25) (xy 35.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8421,16 +8587,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 92.71) (xy 33.02 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3114383c-e948-4776-85ae-ea2f814cdcce")
-	)
-	(wire
-		(pts
 			(xy 142.24 54.61) (xy 142.24 55.88)
 		)
 		(stroke
@@ -8481,13 +8637,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 95.25) (xy 22.86 95.25)
+			(xy 20.32 95.25) (xy 30.48 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39f8f212-29ef-44da-ab14-417d163df48e")
+	)
+	(wire
+		(pts
+			(xy 43.18 152.4) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39feb892-18b2-4600-a99f-c49ded0624e3")
 	)
 	(wire
 		(pts
@@ -8508,6 +8674,16 @@
 			(type default)
 		)
 		(uuid "3b12921b-e2d3-4f6a-8e0e-61a8defaa1de")
+	)
+	(wire
+		(pts
+			(xy 41.91 95.25) (xy 48.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3816ce-74e4-47ff-af3f-32b1fd5818b9")
 	)
 	(wire
 		(pts
@@ -8588,16 +8764,6 @@
 			(type default)
 		)
 		(uuid "422eec82-9c51-4d89-a847-36f9a3eb402a")
-	)
-	(wire
-		(pts
-			(xy 33.02 152.4) (xy 35.56 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423db0af-c1dc-401f-aa3b-5b9fe02adcae")
 	)
 	(wire
 		(pts
@@ -8841,6 +9007,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 124.46) (xy 222.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537a60a0-88ff-4a28-b00f-525e318aa0c8")
+	)
+	(wire
+		(pts
 			(xy 113.03 110.49) (xy 113.03 124.46)
 		)
 		(stroke
@@ -8908,6 +9084,26 @@
 			(type default)
 		)
 		(uuid "582ae4d8-232b-4acb-9b11-33893407ae88")
+	)
+	(wire
+		(pts
+			(xy 35.56 152.4) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5846147d-16d8-4e07-92d2-bbc188a2b7c0")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d70bf2-d173-4e7e-8974-a13e83690a8e")
 	)
 	(wire
 		(pts
@@ -9031,7 +9227,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 104.14) (xy 222.25 106.68)
+			(xy 213.36 124.46) (xy 222.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6670055c-1714-4404-b787-32998c1c0e02")
+	)
+	(wire
+		(pts
+			(xy 222.25 104.14) (xy 222.25 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9201,7 +9407,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 152.4) (xy 33.02 152.4)
+			(xy 30.48 152.4) (xy 35.56 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9281,7 +9487,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 152.4) (xy 22.86 152.4)
+			(xy 20.32 152.4) (xy 30.48 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9341,7 +9547,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 35.56 38.1)
+			(xy 48.26 92.71) (xy 48.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6f6460-9d72-4992-b2be-95d957499591")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9621,6 +9837,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 111.76) (xy 213.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e587e1-f44a-428e-a7a9-a6146ba207ef")
+	)
+	(wire
+		(pts
 			(xy 113.03 96.52) (xy 158.75 96.52)
 		)
 		(stroke
@@ -9761,6 +9987,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 35.56) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8423f58-76db-4bc8-ba43-c8181fa7d94f")
+	)
+	(wire
+		(pts
 			(xy 152.4 45.72) (xy 142.24 45.72)
 		)
 		(stroke
@@ -9811,16 +10047,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 38.1) (xy 30.48 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbedc5cc-81e1-4c7d-973e-1c8194976cab")
-	)
-	(wire
-		(pts
 			(xy 240.03 121.92) (xy 242.57 121.92)
 		)
 		(stroke
@@ -9828,6 +10054,16 @@
 			(type default)
 		)
 		(uuid "bc195ba9-166a-4881-9389-7f0413a8d2b2")
+	)
+	(wire
+		(pts
+			(xy 46.99 149.86) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2ea65c-dd1f-4de0-aa51-1eaed43da221")
 	)
 	(wire
 		(pts
@@ -9891,16 +10127,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 38.1) (xy 33.02 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5f3eb2c-25c2-4454-9a63-90e7ce352df2")
-	)
-	(wire
-		(pts
 			(xy 33.02 190.5) (xy 33.02 187.96)
 		)
 		(stroke
@@ -9908,16 +10134,6 @@
 			(type default)
 		)
 		(uuid "c5ff0846-2aac-4beb-93fa-8d901e90c291")
-	)
-	(wire
-		(pts
-			(xy 27.94 95.25) (xy 30.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c88da8df-2e4b-49ef-b848-6abc23573ff7")
 	)
 	(wire
 		(pts
@@ -10251,13 +10467,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 38.1) (xy 22.86 38.1)
+			(xy 20.32 38.1) (xy 30.48 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e40658e2-234c-4e3c-9e53-38ef380ce75c")
+	)
+	(wire
+		(pts
+			(xy 222.25 107.95) (xy 222.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ae7de3-d8d4-42d0-bedd-4225a44ba873")
 	)
 	(wire
 		(pts
@@ -10281,6 +10507,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 38.1) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95bf92f-bce5-4ae3-8c2e-cdee7f5d4aeb")
+	)
+	(wire
+		(pts
 			(xy 151.13 182.88) (xy 151.13 180.34)
 		)
 		(stroke
@@ -10291,16 +10527,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 152.4) (xy 30.48 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea3f232b-a262-48a5-b4a5-712eb81715e3")
-	)
-	(wire
-		(pts
 			(xy 80.01 186.69) (xy 83.82 186.69)
 		)
 		(stroke
@@ -10308,6 +10534,16 @@
 			(type default)
 		)
 		(uuid "eceac24e-88a4-451f-b426-62501755094d")
+	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 36.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfb6e30-3e55-4321-9de5-49ed0821dc1b")
 	)
 	(wire
 		(pts
@@ -10378,6 +10614,16 @@
 			(type default)
 		)
 		(uuid "f03b5f81-b6fe-4437-afb2-3e9a17f3c456")
+	)
+	(wire
+		(pts
+			(xy 222.25 116.84) (xy 222.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16c04aa-a5b6-41de-87fd-09048ee84768")
 	)
 	(wire
 		(pts
@@ -11666,85 +11912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 234.95 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08e39c63-037c-422d-ba4e-d65492d535fb")
-		(property "Reference" "SW1"
-			(at 234.95 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 234.95 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
-			(at 234.95 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 234.95 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "10b585e7-52be-4407-b0eb-370e8037402f")
-		)
-		(pin "1"
-			(uuid "a1bb677b-caa3-4e5a-ae24-5b6a7b36434c")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 90.17 82.55 0)
 		(unit 1)
@@ -11983,9 +12150,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 114.3 0)
-		(mirror y)
+		(lib_id "Switch:SW_Push")
+		(at 234.95 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11993,11 +12159,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e495fbf-bafb-49b1-8c5f-a85935a653c1")
-		(property "Reference" "#PWR07"
-			(at 222.25 120.65 0)
-			(hide yes)
+		(uuid "0f2cb676-fa1e-4569-b61f-bfd7f53f43fa")
+		(property "Reference" "SW4"
+			(at 234.95 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12006,8 +12170,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 222.25 119.38 0)
+		(property "Value" "BOOT"
+			(at 234.95 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12016,8 +12180,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 222.25 114.3 0)
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
+			(at 234.95 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12028,7 +12192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 114.3 0)
+			(at 234.95 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12038,8 +12202,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 114.3 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 234.95 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12048,14 +12212,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "272cbbe1-613a-4a68-9d87-04f121f92e81")
 		)
 		(pin "1"
-			(uuid "4a8fc9d4-9e56-45e3-bc96-3f441a16f0a7")
+			(uuid "4eee85d0-630c-49bb-bc86-afcbc72b532f")
 		)
 		(instances
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR07")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -12291,84 +12458,6 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 33.02 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "148ed1bf-221a-47b7-ae2b-a2d1230c533f")
-		(property "Reference" "#PWR027"
-			(at 33.02 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 33.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 33.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4fb54a0e-565f-4e58-8ca1-e631c3eeb38f")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12801,7 +12890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 142.24 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13934,6 +14023,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 39.37 95.25 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "344801ee-cd69-4345-a33a-a5b40c3d9382")
+		(property "Reference" "NT10"
+			(at 36.576 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 36.576 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 39.37 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 39.37 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53e1453e-1e77-4f67-925b-a3aa6aea8d06")
+		)
+		(pin "1"
+			(uuid "97f5efe9-dd60-432a-9ce4-3d80e1ca9c07")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "NT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3539f1c0-b597-4f8d-82bb-ddc299396785")
+		(property "Reference" "#PWR049"
+			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 48.26 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 48.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b939ca8-431d-4da8-8de1-540b24f6ec5d")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 113.03 100.33 0)
 		(unit 1)
@@ -14178,7 +14427,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 222.25 110.49 0)
+		(at 222.25 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14188,17 +14437,6 @@
 		(dnp no)
 		(uuid "462677f7-e834-4772-8701-c2aa227dabb6")
 		(property "Reference" "C1"
-			(at 219.71 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0µ1"
 			(at 219.71 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14209,8 +14447,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "0µ1"
+			(at 219.71 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 223.2152 114.3 0)
+			(at 223.2152 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14221,7 +14470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 110.49 0)
+			(at 222.25 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14232,7 +14481,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 222.25 110.49 0)
+			(at 222.25 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14354,6 +14603,84 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49a63186-8f61-4123-b56f-c1c8da943574")
+		(property "Reference" "#PWR04"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 48.26 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b154de47-9eaf-424c-b2b1-938350894b41")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14514,6 +14841,88 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 39.37 38.1 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "510c253a-26ca-4d2b-a524-83499c3fd2bd")
+		(property "Reference" "NT9"
+			(at 36.576 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 36.576 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 39.37 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 39.37 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "85c570ed-7c7e-4c94-bde4-3b163ba7b841")
+		)
+		(pin "1"
+			(uuid "4965e6b8-9107-4e1f-9785-391e407ad8be")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "NT9")
 					(unit 1)
 				)
 			)
@@ -15166,88 +15575,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 25.4 95.25 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e9bfa31-dec5-411a-be1f-33c2100b1847")
-		(property "Reference" "NT8"
-			(at 22.606 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 22.606 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 25.4 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 25.4 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "83b8c4e9-7c61-4aff-836e-04a4fb5baf72")
-		)
-		(pin "1"
-			(uuid "291a99eb-adac-4e1b-8750-760e7a0ee909")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "NT8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 50.8 190.5 180)
 		(unit 1)
@@ -15320,84 +15647,6 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 33.02 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63191669-a466-4576-8182-212b3a34be4b")
-		(property "Reference" "#PWR015"
-			(at 33.02 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 33.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 33.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e4623b4-0414-439c-948f-874d934c16d7")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15477,166 +15726,6 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 139.7 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68d13434-23ea-46ba-ae2f-185304165e61")
-		(property "Reference" "#PWR026"
-			(at 139.7 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 139.7 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 139.7 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0c45b57-129c-4cfb-b724-7d50eacd775a")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 25.4 38.1 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b1ff368-8a2a-47ab-aab6-f371136117fe")
-		(property "Reference" "NT9"
-			(at 22.606 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 22.606 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 25.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 25.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f72ef9f1-9cc9-4ee5-a1e0-8442f696beb8")
-		)
-		(pin "1"
-			(uuid "3d68b416-2825-4e99-be35-918dbfb9b8a9")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "NT9")
 					(unit 1)
 				)
 			)
@@ -15979,7 +16068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CEM-1201S"
+		(property "Value" "AZ-YP13G401"
 			(at 147.32 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16267,6 +16356,166 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 139.7 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8559ecfd-7f1f-4b79-9d65-815a048f79dd")
+		(property "Reference" "#PWR050"
+			(at 139.7 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 139.7 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd2b0e75-194a-44c8-898f-a90840ea2c5e")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 40.64 152.4 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88ddf6ab-1376-4d7e-af90-951aebac0b61")
+		(property "Reference" "NT7"
+			(at 37.846 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 37.846 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 40.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 40.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45d92216-6ac9-4c6a-bdba-9c13faa248a6")
+		)
+		(pin "1"
+			(uuid "3e8f7315-5be5-4f51-88ce-ba8d5f10b3eb")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "NT7")
 					(unit 1)
 				)
 			)
@@ -17005,88 +17254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 25.4 152.4 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9cc2cf67-7b35-47cc-a9d9-85d0f8c5169e")
-		(property "Reference" "NT7"
-			(at 22.606 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 22.606 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1bd6857-890f-4dc3-bf5b-a0b76a716807")
-		)
-		(pin "1"
-			(uuid "bdd40d56-f129-4d02-b027-668183616fb4")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "NT7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 66.04 81.28 270)
 		(mirror x)
@@ -17566,84 +17733,6 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "NT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 33.02 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8c0164c-a104-4ccf-9553-e7c9e84de9c8")
-		(property "Reference" "#PWR04"
-			(at 33.02 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ef3b58c-340e-42b2-ad61-8ac4b881999c")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18902,7 +18991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 140.462 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -19104,6 +19193,84 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 46.99 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a63887-ec4f-4fb2-85f0-e5b94a616ccd")
+		(property "Reference" "#PWR027"
+			(at 46.99 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 46.99 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+			(at 46.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 46.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a85592c-de54-4dce-ab5a-c7b8a196a1a0")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -19341,6 +19508,85 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daa3aab2-083a-4823-b88a-3a67da1bbac8")
+		(property "Reference" "#PWR07"
+			(at 222.25 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd2f1994-6418-4ac5-a21b-96a367045b35")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19731,6 +19977,87 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 213.36 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e083be42-a7ec-4a90-b29a-5635f4fe726e")
+		(property "Reference" "SW5"
+			(at 207.772 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET"
+			(at 209.55 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
+			(at 208.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 213.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2dac383-3b47-4c1d-88c9-0a9a684a8462")
+		)
+		(pin "1"
+			(uuid "5175902c-6d0d-4da8-a72c-3ae7537b5bfc")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -20661,7 +20988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 141.732 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -20899,7 +21226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S2-MINI-1"
+		(property "Footprint" "RF_Module:ESP32-S3-MINI-1"
 			(at 273.05 158.75 0)
 			(hide yes)
 			(show_name no)
