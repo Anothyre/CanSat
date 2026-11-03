@@ -7678,6 +7678,12 @@
 		(uuid "162ef4d8-177a-4022-ad04-d070e2059170")
 	)
 	(junction
+		(at 231.14 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "249165e1-c5af-43bd-8a6c-1888aad08214")
+	)
+	(junction
 		(at 166.37 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8187,6 +8193,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 170.18) (xy 57.15 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba5c067-db85-4cbe-b052-10c898ea6ba4")
+	)
+	(wire
+		(pts
 			(xy 240.03 116.84) (xy 242.57 116.84)
 		)
 		(stroke
@@ -8267,6 +8283,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 120.65) (xy 48.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184559ab-6335-484a-9998-c38ac7c17909")
+	)
+	(wire
+		(pts
 			(xy 107.95 146.05) (xy 115.57 146.05)
 		)
 		(stroke
@@ -8314,6 +8340,16 @@
 			(type default)
 		)
 		(uuid "1d6db7a5-00be-4106-bce5-1b449d0446d9")
+	)
+	(wire
+		(pts
+			(xy 50.8 175.26) (xy 50.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7dac3d-ae21-4e73-8ffa-15938eddd64c")
 	)
 	(wire
 		(pts
@@ -8837,6 +8873,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 73.66) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d4ddf5-c90c-4100-bc3b-881df9edbcc9")
+	)
+	(wire
+		(pts
 			(xy 227.33 34.29) (xy 227.33 31.75)
 		)
 		(stroke
@@ -9224,6 +9270,16 @@
 			(type default)
 		)
 		(uuid "6339bcdc-b377-4c26-829f-2386c38367e9")
+	)
+	(wire
+		(pts
+			(xy 229.87 57.15) (xy 232.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65734941-2016-42b0-9547-88e362c2afdd")
 	)
 	(wire
 		(pts
@@ -9787,6 +9843,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 175.26) (xy 50.8 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4330bb3-36ef-405b-8742-e05e5f7195fe")
+	)
+	(wire
+		(pts
 			(xy 139.7 143.51) (xy 139.7 146.05)
 		)
 		(stroke
@@ -9957,7 +10023,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 72.39) (xy 232.41 72.39)
+			(xy 229.87 72.39) (xy 231.14 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10117,6 +10183,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 63.5) (xy 48.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c394189e-4149-42f5-8361-a86838913479")
+	)
+	(wire
+		(pts
 			(xy 240.03 139.7) (xy 242.57 139.7)
 		)
 		(stroke
@@ -10144,6 +10220,16 @@
 			(type default)
 		)
 		(uuid "c90eac84-7113-4e59-9ac7-a3fd800f4fd5")
+	)
+	(wire
+		(pts
+			(xy 227.33 73.66) (xy 227.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91a6c8f-bab7-4981-8f74-617153b29142")
 	)
 	(wire
 		(pts
@@ -10257,6 +10343,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 72.39) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfaacdcd-4757-43bd-a39e-680520c0c701")
+	)
+	(wire
+		(pts
 			(xy 276.86 97.79) (xy 257.81 97.79)
 		)
 		(stroke
@@ -10284,16 +10380,6 @@
 			(type default)
 		)
 		(uuid "d0d2547a-15ce-4928-b148-00b04762f9a2")
-	)
-	(wire
-		(pts
-			(xy 229.87 57.15) (xy 232.41 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f8162f-73d1-4c2a-8bf5-df567c5b3bec")
 	)
 	(wire
 		(pts
@@ -10594,6 +10680,16 @@
 			(type default)
 		)
 		(uuid "eff10a98-0120-4c73-ade7-622526c7feb1")
+	)
+	(wire
+		(pts
+			(xy 231.14 72.39) (xy 232.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0139f91-c487-4d8f-901b-f89cd1f1321d")
 	)
 	(wire
 		(pts
@@ -11800,6 +11896,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 33.02 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3147e819-5c28-457b-8d2e-2085967dafb1")
 		)
@@ -11828,6 +11935,96 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 66.04 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04bb8079-9e55-4027-a3ef-2132b4774a26")
+		(property "Reference" "TP2"
+			(at 45.72 68.0719 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 45.72 70.6119 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 48.26 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11790455-7206-4cbb-8266-5dd760a4b9e6")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11968,6 +12165,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 90.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 90.17 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12213,6 +12421,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 234.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "272cbbe1-613a-4a68-9d87-04f121f92e81")
 		)
@@ -12282,6 +12501,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 128.27 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12683,6 +12913,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 104.14 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "398c93e6-c5e4-4ec1-91ce-aa74f539721a")
 		)
@@ -12841,6 +13082,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 72.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12299282-5b33-405b-a8cc-c2abb489d99f")
 		)
@@ -12913,6 +13165,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 137.16 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13083,6 +13346,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 83.82 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B12"
 			(uuid "321d0f21-81b0-4f4f-9ec3-c7f97f77c402")
 		)
@@ -13204,6 +13478,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 33.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "6400b7b3-c884-40ae-973f-4167a1e097f0")
 		)
@@ -13294,6 +13579,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 66.04 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13464,6 +13760,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 143.51 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e5c0da0f-ef72-459a-ba65-513836a699a5")
 		)
@@ -13474,84 +13781,6 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 77.47 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c1e98c2-efbe-4ab4-9122-2353229fc861")
-		(property "Reference" "#PWR021"
-			(at 77.47 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 77.47 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 77.47 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 77.47 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81c101a8-5771-4700-b400-fe10ae6bd7d7")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13855,6 +14084,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8414c0f7-1f99-4fb8-97fd-bf578957334b")
 		)
@@ -14089,6 +14329,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 39.37 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "53e1453e-1e77-4f67-925b-a3aa6aea8d06")
 		)
@@ -14249,6 +14500,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 113.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f46785ac-fe0e-4b64-b5b9-f71382b5a4b0")
 		)
@@ -14320,6 +14582,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 137.16 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14410,6 +14683,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 104.14 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87b6fa7b-463d-40f0-92f5-d9b99720457a")
 		)
@@ -14481,6 +14765,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 222.25 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14583,6 +14878,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14753,6 +15059,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 255.27 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "33ac68c5-3b52-4efc-8d67-da58868cb6f5")
 		)
@@ -14913,6 +15230,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 39.37 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "85c570ed-7c7e-4c94-bde4-3b163ba7b841")
 		)
@@ -14983,6 +15311,17 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 273.05 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 273.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15064,6 +15403,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 215.9 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15233,6 +15583,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 20.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8a4c195-5b28-4ec4-bd47-041adfe404fe")
 		)
@@ -15392,6 +15753,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f70fc066-b75c-4504-91db-e7a695dd2b10")
 		)
@@ -15477,6 +15849,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 76.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b0a0687f-b0d6-4523-b140-841e3986af87")
 		)
@@ -15550,6 +15933,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 115.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 115.57 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15875,6 +16269,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 80.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "482d53e5-034e-4118-9df4-9b14f35b12a8")
 		)
@@ -16033,6 +16438,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ddd8003d-3b6d-4556-9646-bf2ba49a8db1")
 		)
@@ -16102,6 +16518,17 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 143.51 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 143.51 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16506,6 +16933,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 40.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45d92216-6ac9-4c6a-bdba-9c13faa248a6")
 		)
@@ -16665,6 +17103,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 20.32 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0947f63-fa1a-406f-a95e-25346a242e3d")
 		)
@@ -16746,6 +17195,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "615c656c-8279-49ca-beda-f5182878457b")
 		)
@@ -16815,6 +17275,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 97.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -16997,6 +17468,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 105.41 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6013d084-fd42-417e-927d-5fa4751e3498")
 		)
@@ -17069,6 +17551,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 276.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 276.86 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17161,6 +17654,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 130.81 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d1958c0a-91cf-4567-a160-905a04a42ec7")
 		)
@@ -17171,6 +17675,96 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99191832-0c6d-4c43-a1c7-922e34e7355a")
+		(property "Reference" "TP6"
+			(at 224.79 79.5019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.79 82.0419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 232.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "367ea32a-4a12-481b-a149-6caf43d9d9b8")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -17232,6 +17826,17 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 196.85 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 196.85 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17318,6 +17923,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 66.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63216d07-01a7-4e96-8fb0-15c3bc28bd29")
 		)
@@ -17389,6 +18005,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 20.32 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 20.32 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -17559,6 +18186,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 66.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "db695633-2e74-4875-a285-10a1bda3e45d")
 		)
@@ -17631,6 +18269,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 113.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 113.03 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17714,6 +18363,17 @@
 		)
 		(property "Description" "Net tie, 2 pins"
 			(at 247.65 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 247.65 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17960,6 +18620,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 66.04 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4fa7160-53a8-4d2b-ae9b-2831e5bf23d3")
 		)
@@ -18110,6 +18781,17 @@
 			)
 		)
 		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 33.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -18301,6 +18983,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 134.62 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64707aa3-1c41-41dc-b278-3c490e565724")
 		)
@@ -18463,6 +19156,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 156.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6eca8598-a22a-402b-9213-168f30772335")
 		)
@@ -18473,6 +19177,96 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 123.19 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6a0694f-7668-46e3-be0b-d4f594e11f69")
+		(property "Reference" "TP3"
+			(at 45.72 125.2219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 45.72 127.7619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 48.26 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d237c32d-13b8-48d7-8a0c-8819dd1734e6")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -18778,6 +19572,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 123.19 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1828354d-8ae2-4a06-b138-1b25e8df53cd")
 		)
@@ -18939,6 +19744,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 132.08 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7504a41c-8673-4f4d-a84b-053c89cea113")
 		)
@@ -19014,6 +19830,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 142.24 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 142.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19173,6 +20000,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 227.33 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19343,6 +20181,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.8 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35084d77-4b4b-4481-b9ec-6d7e14cd97ac")
 		)
@@ -19492,6 +20341,17 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 196.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 196.85 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19734,6 +20594,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "103fb790-1804-4169-874b-a1cfa61f6c94")
 		)
@@ -19741,6 +20612,96 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 170.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcca8cbe-5f87-4fef-8099-664b338b8923")
+		(property "Reference" "TP4"
+			(at 59.69 168.1481 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 59.69 165.6081 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 57.15 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c550088b-e99b-4724-aa00-d591041ee64e")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -19880,6 +20841,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -20048,6 +21020,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 213.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2dac383-3b47-4c1d-88c9-0a9a684a8462")
 		)
@@ -20120,6 +21103,17 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 142.24 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20301,6 +21295,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 66.04 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec80de72-b158-4147-a264-e73733032373")
+		(property "Reference" "#PWR052"
+			(at 66.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 66.04 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 66.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "110717d9-fae9-4314-9495-42caa463fb89")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 209.55 101.6 0)
 		(mirror y)
@@ -20445,6 +21517,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0b3f974-1308-4b4b-af62-5cb13b86489b")
 		)
@@ -20517,6 +21600,17 @@
 			)
 		)
 		(property "Description" "GNSS Module NEO M8, VCC 2.7V to 3.6V"
+			(at 250.19 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 250.19 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -20673,6 +21767,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "fc13b804-2945-4340-93e7-65984af7ec36")
 		)
@@ -20710,84 +21815,6 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 66.04 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f47dfd7f-8762-448b-bc74-675ffe9e386a")
-		(property "Reference" "#PWR010"
-			(at 66.04 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 66.04 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 66.04 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 66.04 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87d75053-d73e-4797-8763-1eb3b56fb0c6")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -20851,6 +21878,17 @@
 		)
 		(property "Description" "Net tie, 2 pins"
 			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 87.63 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20930,6 +21968,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 66.04 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 66.04 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21021,6 +22070,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 143.51 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "644c7c42-a643-48e3-a3ff-453172017f10")
 		)
@@ -21091,6 +22151,17 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 161.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 161.29 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -21181,6 +22252,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 229.87 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec69ffea-927d-49c0-8181-3df81c159a72")
 		)
@@ -21250,6 +22332,17 @@
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna"
 			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 257.81 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21530,6 +22623,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 58.42 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25612a7c-e610-45c2-92d0-9e45adfc9fca")
 		)
@@ -21693,6 +22797,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 87.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b7827824-978f-458b-87ac-7fa1637271f9")
 		)
@@ -21703,6 +22818,84 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 77.47 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffad84cb-7cd3-4a78-abe7-3bbd698efb9c")
+		(property "Reference" "#PWR051"
+			(at 77.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 77.47 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 77.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "282c1737-6243-4fbe-acaf-b4430ffb9721")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
