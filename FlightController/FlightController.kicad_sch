@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Flight Controller")
-		(date "2026-10-08")
+		(date "2026-11-04")
 		(rev "V1")
 		(company "HTL-Steyr")
 		(comment 1 "Felix Brandner, Nelly Böhmer, Fuchslehner Daniel")
@@ -12468,7 +12468,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "Battery"
 			(at 128.27 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
