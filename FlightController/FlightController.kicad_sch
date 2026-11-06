@@ -17435,7 +17435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 105.41 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -21080,7 +21080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 142.24 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21854,7 +21854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 87.63 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -22128,7 +22128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 161.29 96.52 0)
 			(hide yes)
 			(show_name no)
