@@ -7804,6 +7804,12 @@
 		(uuid "84970161-d049-4960-a545-62881b0182a8")
 	)
 	(junction
+		(at 241.3 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c3a5835-2fe3-4a99-93c9-a0fb6b560fb9")
+	)
+	(junction
 		(at 201.93 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8363,6 +8369,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 97.79) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7ba74f-0166-4110-a8e0-10a25862c458")
+	)
+	(wire
+		(pts
 			(xy 275.59 57.15) (xy 278.13 57.15)
 		)
 		(stroke
@@ -8723,6 +8739,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 111.76) (xy 242.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc0ea3f-24da-4ad7-815e-4adf6e0f0ef0")
+	)
+	(wire
+		(pts
 			(xy 160.02 180.34) (xy 160.02 182.88)
 		)
 		(stroke
@@ -8740,6 +8766,16 @@
 			(type default)
 		)
 		(uuid "3d7d086b-9e78-4dcb-990e-08a878ba2d92")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 241.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e17b095-450b-4a10-a0e0-b76cfa841360")
 	)
 	(wire
 		(pts
@@ -9393,7 +9429,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 111.76) (xy 242.57 111.76)
+			(xy 240.03 111.76) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10713,6 +10749,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 97.79) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07000c6-86b4-4062-8ffe-fc2d244db4d1")
+	)
+	(wire
+		(pts
 			(xy 222.25 116.84) (xy 222.25 124.46)
 		)
 		(stroke
@@ -10730,16 +10776,6 @@
 			(type default)
 		)
 		(uuid "f224f3bc-e4df-448f-b815-bb7bbfc5df82")
-	)
-	(wire
-		(pts
-			(xy 209.55 101.6) (xy 209.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f60c8de6-47dc-450b-a8d1-15ec3fb5c33e")
 	)
 	(wire
 		(pts
@@ -21367,85 +21403,6 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 209.55 101.6 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f140bc46-ef12-4b58-a1e7-032fc4cc682c")
-		(property "Reference" "#PWR02"
-			(at 209.55 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 209.55 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 209.55 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 209.55 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de356696-330d-4913-a1eb-a061325ce7fc")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

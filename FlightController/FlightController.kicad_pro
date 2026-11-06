@@ -87,6 +87,10 @@
           "is ok"
         ],
         [
+          "lib_footprint_issues|304560000|135000000|438ad682-13d0-4a2e-9e1c-1d21bb0aef2e|00000000-0000-0000-0000-000000000000",
+          "is ok"
+        ],
+        [
           "silk_edge_clearance|322300000|170000000|1b95ee09-a574-4bb0-8504-fb212aefa505|225a48c6-fda4-4d26-a1ab-4339c3782ce6",
           "is ok"
         ],
