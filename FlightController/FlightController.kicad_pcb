@@ -15922,6 +15922,41 @@
 		)
 	)
 	(dimension
+		(type radial)
+		(layer "Dwgs.User")
+		(uuid "bf3a45f3-b8d9-487f-8d70-8ece0660ddd2")
+		(pts
+			(xy 305 105) (xy 301.760095 101.191052)
+		)
+		(leader_length 3.81)
+		(format
+			(prefix "R ")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(override_value "5,000")
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "R 5,000 mm"
+			(at 291 98.288928 0)
+			(layer "Dwgs.User")
+			(uuid "bf3a45f3-b8d9-487f-8d70-8ece0660ddd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
 		(uuid "32ab95f6-988c-4633-92b1-30b707efdaf0")
