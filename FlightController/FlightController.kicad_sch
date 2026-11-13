@@ -2675,7 +2675,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:B220"
+		(symbol "Diode:SS210"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2698,7 +2698,7 @@
 					)
 				)
 			)
-			(property "Value" "B220"
+			(property "Value" "SS210"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2708,7 +2708,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMB"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2719,7 +2719,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2730,7 +2730,7 @@
 					)
 				)
 			)
-			(property "Description" "20V 2A Schottky Barrier Rectifier Diode, SMB"
+			(property "Description" "100V 2A Schottky Diode, SMA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2752,7 +2752,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SMB*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2763,7 +2763,7 @@
 					)
 				)
 			)
-			(symbol "B220_0_1"
+			(symbol "SS210_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -2801,7 +2801,7 @@
 					)
 				)
 			)
-			(symbol "B220_1_1"
+			(symbol "SS210_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -13730,99 +13730,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:B220")
-		(at 143.51 24.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b4f661a-f442-4a90-b076-c82a599844a3")
-		(property "Reference" "D2"
-			(at 146.05 23.1774 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B220"
-			(at 146.05 25.7174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 147.955 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
-			(at 143.51 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "20V 2A Schottky Barrier Rectifier Diode, SMB"
-			(at 143.51 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 143.51 24.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5c0da0f-ef72-459a-ba65-513836a699a5")
-		)
-		(pin "1"
-			(uuid "017b678c-53b1-425b-9e7a-036e271056fb")
-		)
-		(instances
-			(project "FlightController"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 227.33 111.76 0)
 		(unit 1)
@@ -15314,7 +15221,7 @@
 				)
 			)
 		)
-		(property "Value" "60312002114503"
+		(property "Value" "SMA001G"
 			(at 274.32 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15324,7 +15231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Wurth_60312002114503_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical"
 			(at 273.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16741,6 +16648,88 @@
 			(project "FlightController"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS210")
+		(at 143.51 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8242ff04-87b3-48d5-831b-7e6c5f64ec1e")
+		(property "Reference" "D2"
+			(at 146.05 23.1774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS210"
+			(at 146.05 25.7174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 147.955 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 143.51 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 143.51 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca5acb74-ee20-4ccd-ad71-66b05aff7141")
+		)
+		(pin "2"
+			(uuid "128ec480-3171-4389-8bd1-ad2cf275476b")
+		)
+		(instances
+			(project "FlightController"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D2")
 					(unit 1)
 				)
 			)
