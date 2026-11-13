@@ -63,10 +63,10 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -84,18 +84,6 @@
         ],
         [
           "footprint_type_mismatch|359375000|135000000|3979015e-64f0-4e75-9c74-1760b1e8e4b6|00000000-0000-0000-0000-000000000000",
-          "is ok"
-        ],
-        [
-          "lib_footprint_issues|304560000|135000000|438ad682-13d0-4a2e-9e1c-1d21bb0aef2e|00000000-0000-0000-0000-000000000000",
-          "is ok"
-        ],
-        [
-          "silk_edge_clearance|322300000|170000000|1b95ee09-a574-4bb0-8504-fb212aefa505|225a48c6-fda4-4d26-a1ab-4339c3782ce6",
-          "is ok"
-        ],
-        [
-          "silk_edge_clearance|337700000|170000000|1b95ee09-a574-4bb0-8504-fb212aefa505|28eb6a68-6dcf-40f0-a4cb-b14e40b23ec2",
           "is ok"
         ]
       ],
@@ -204,7 +192,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -216,7 +203,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -228,7 +214,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -597,8 +582,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -797,7 +782,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR1-39,#PWR49-50,10k1,AE1,BZ1,C1-11,D1-2,H1-5,J1-4,JP1,L1,NT1-3,NT7,NT9-10,Q1-2,R1-12,SW1-5,TP1-7,U1-7",
+    "used_designators": "SW1-5,AE1,U1-7,D1-2,Q1-2,BZ1,J1-4,NT1-3,NT7,NT9-10,TP1-7,JP1,R1-12,L1,10k1,H1-5,#PWR1-39,#PWR49-50,TH1-2,#FLG1-5,C1-11",
     "variants": []
   },
   "sheets": [
